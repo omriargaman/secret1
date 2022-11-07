@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
 
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>רשימת סוכנים רשעים (חלקית כי היא סודית)</h2>
+        <h2 className={utilStyles.headingLg}>רשימת סוכנים רשעים -(חלקית כי היא סודית)</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, title }) => (
             <li className={utilStyles.listItem} key={id}>
